@@ -7,13 +7,14 @@
   <title>PizzaBurger - доставка еды на дом</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <div class="container">
     <header class="header">
-      <a href="./index.html">
+      <a href="./index.html" class="animated fadeInRight delay-0.5s">
         <img src="img/logo.svg" alt="Logo" class="logo">
       </a>
       <input type="text" class="input input-address" placeholder="Адрес доставки">
@@ -44,7 +45,9 @@
         </div>
         <div class="cards">
 
-          <div class="cart">
+          <!-- cards -->
+
+          <div class="cart wow fadeInUp" data-wow-delay="0.2s">
             <img src="./img/sushi.jpg" alt="" class="cart-img">
             <div class="cart-text">
               <div class="cart-heading">
@@ -61,7 +64,7 @@
             </div>
           </div>
 
-          <div class="cart">
+          <div class="cart wow fadeInUp" data-wow-delay="0.4s">
             <img src="./img/sushi.jpg" alt="" class="cart-img">
             <div class="cart-text">
               <div class="cart-heading">
@@ -78,7 +81,7 @@
             </div>
           </div>
 
-          <div class="cart">
+          <div class="cart wow fadeInUp" data-wow-delay="0.6s">
             <img src="./img/sushi.jpg" alt="" class="cart-img">
             <div class="cart-text">
               <div class="cart-heading">
@@ -95,7 +98,7 @@
             </div>
           </div>
 
-          <div class="cart">
+          <div class="cart wow fadeInUp" data-wow-delay="0.2s">
             <img src="./img/sushi.jpg" alt="" class="cart-img">
             <div class="cart-text">
               <div class="cart-heading">
@@ -112,7 +115,7 @@
             </div>
           </div>
 
-          <div class="cart">
+          <div class="cart wow fadeInUp" data-wow-delay="0.4s">
             <img src="./img/sushi.jpg" alt="" class="cart-img">
             <div class="cart-text">
               <div class="cart-heading">
@@ -129,7 +132,7 @@
             </div>
           </div>
 
-          <div class="cart">
+          <div class="cart wow fadeInUp" data-wow-delay="0.6s">
             <img src="./img/sushi.jpg" alt="" class="cart-img">
             <div class="cart-text">
               <div class="cart-heading">
@@ -239,6 +242,7 @@
 
   </div>
 
+  <script src="./wow.min.js"></script>
   <script src="./script.js"></script>
 </body>
 

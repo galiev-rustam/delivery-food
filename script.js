@@ -11,9 +11,6 @@ cart_button.addEventListener('click', () => {
 
 b_close.addEventListener('click', () => {
   modal.classList.remove('is-open');
-})
+});
 
-
-
-
-
+new WOW().init();
